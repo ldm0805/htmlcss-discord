@@ -3,9 +3,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Whitney', sans-serif;
+    font-family: 'Whitney Semibold', sans-serif;
+    font-family: 'Whitney Book', sans-serif;
+    font-family: 'Whitney Light', sans-serif;
 }
-.margin-top-10{
-    margin-top: 10px;
+.margin-top-15{
+    margin-top: 15px;
 }
 
 .margin-top-30{
@@ -36,18 +40,24 @@
  }
  
  .padding-vertical-200{
-    padding: 20px 0px 200px 0px;
- }
-
-/* Stile header */
-
+     padding: 20px 0px 200px 0px;
+    }
+    
+    /* Stile header */
+    
 .header-container{   
-    display: flex;
-    width: 100%;
-    height: 60px;
-    justify-content: center;
-    align-items: center;
-}
+        display: flex;
+        width: 100%;
+        height: 60px;
+        justify-content: center;
+        align-items: center;
+    }
+
+.img-container{
+        width: 100%;
+        background-image: url(../img/jumbo.png);
+        background-size: cover;
+    }
  
 .row-header{
     display: flex;   
@@ -73,30 +83,24 @@
     justify-content: flex-end;
 }
 
-/* Link  */
+/* Link contenuti nell'header e disposti in una lista non ordinata */
 
 a:link {
     text-decoration: none;
 }
 
+a:hover{
+    color:red;
+}
+
 .link-header{
     color: white;
-    font-weight: bolder;
+    font-size: 20px;
 }
 
-.link-header-access{
-    color: grey;
+.link-header-login{
+    color: rgb(0, 0, 0);
     
-}
-
-/* Lista non ordinata*/
-
-ul{
-    display: flex;
-    list-style-type: none;
-    justify-content: space-around;
-    align-items: center;
-    height: 100%;
 }
 
 .accedi{
@@ -107,22 +111,21 @@ ul{
     background-color: white;
 }
 
-/* Inizio main */
+/* Lista non ordinata*/
 
-main{
- 
+.unordered-list-header{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
 }
 
-/* Header section  */
+
+/* Inizio Main ed Header section  */
 
 .row-blue{
     margin-bottom: 2px;
-}
-
-.img-container{
-    width: 100%;
-    background-image: url(../img/jumbo.png);
-    background-size: cover;
 }
 
 .row-central{
@@ -149,18 +152,19 @@ main{
   font-size: 20px;
 }
 
-.botton-container{
+.button-container{
     display: flex;
     justify-content: center;
 }
 
-.botton-common{
+.button-common{
+    border: none;
     font-size: 20px;
     border-radius: 20px;
     padding: 10px 20px 10px 20px;
 }
 
-.download-mac{
+.download-mac-first{
     color: black;
     background-color: white;
 }
@@ -191,11 +195,12 @@ main{
 }
 
 h3{
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .p-section-two{
     font-size: 15px;
+    
 }
 
 /* Terza section */
@@ -209,34 +214,40 @@ h3{
 }
 
 .lightblue-col-two{
-    border: 2px dashed black;
     width: 25%;
-    background-color: rgb(88, 88, 228);
-    padding: 0px 30px 0px 30px;
+    padding: 0px 40px 0px 40px;
 }
 
 .lightpink-col-two{
-    border: 2px dashed black;
     width: 35%;
-    background-color: rgb(255, 192, 203);
 }
 
+.p-ultimate{
+    width: 50%;
+    text-align: center;
+    margin: 20px 0px 50px 0px;
+}
 /* Quarta section */
 
 .gray-container-two{
-    background-color: lightgray;
+   
+    background-color: rgb(239, 233, 233);
     display: flex;
-    height: 500px;
     width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.green-col{
+    display: flex;
+    width: 60%;
     justify-content: center;
     align-items: center;
 }
 
-.green-col{
-    border: 2px dashed black;
-    height: 450px;
-    width: 60%;
-    background-color: green;
+.img-item-big{
+    width: 80%;
 }
 
 /* Quinta section */
@@ -245,49 +256,71 @@ h3{
     display: flex;
     height: 400px;
     width: 100%;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(35, 39, 42);
     justify-content: center;
     align-items: center;
-    margin-bottom: 2px;
+    padding-top: 20px;
 }
 
 .darkpink-col{
-    border: 2px dashed black;
     width: 18%;
     height: 350px;
-    background-color: rgb(240, 128, 128);
+    padding-right: 50px;
+    
+}
+
+.h3-footer{
+    padding-top: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: blueviolet;
 }
 
 .aqua-col{
-    border: 2px dashed white;
     width: 10.5%;
     height: 350px;
-    background-color: rgb(32, 178, 170);
 }
 
+.background-stars{
+    background-image: url(../img/stars.svg);
+    padding: 25px;
+}
+
+.download-mac-second{
+    background-color: blueviolet;
+    color: white;
+}
+
+li{
+    padding-bottom: 8px;
+}
+.logo-ita{
+    width: 8%;
+    color: white;
+}
+
+.unordered-list-footer{
+    list-style-type: none;
+    padding-left: 5px;
+    color: white;
+    height: 100%;
+}
 /* Footer */
 
 .black-container-two{
     display: flex;
-    height: 100px;
     width: 100%;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(35, 39, 42);
     justify-content: center;
     align-items: flex-end;
 }
-
 .lightgreen-container{
     display: flex;
     width: 60%;
-    height: 80px;
-    background-color: rgb(127, 255, 212);
     justify-content: space-between;
     align-items: center;
 }
 
 .footer-logo-col, .footer-bottone-col{
-    border: 2px dashed black;
-    height: 25px;
     padding: 0px 10px 0px 10px;
-    background-color: rgb(255, 182, 193);
 }
