@@ -8,6 +8,7 @@
     font-family: 'Whitney Book', sans-serif;
     font-family: 'Whitney Light', sans-serif;
 }
+
 .margin-top-15{
     margin-top: 15px;
 }
@@ -15,15 +16,12 @@
 .margin-top-30{
     margin-top: 30px;
 }
- .margin-horizontal-100{
-    margin: 0px 100px;
- }
  
  .margin-left-100{
     margin-left: 100px;
  }
 
- .margin-righ-100{
+ .margin-right-100{
     margin-right: 100px;
  }
 
@@ -134,7 +132,7 @@ a:hover{
     padding: 0px 50px 0px 50px;
 }
 
-.pink-col{
+.header-col{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -147,7 +145,7 @@ a:hover{
     text-align: center;
 }
 
-.first-p{
+.header-p{
   text-align: center;
   font-size: 20px;
 }
@@ -177,7 +175,7 @@ a:hover{
 
 /* Seconda section */
 
-.white-container{
+.section-container{
     display: flex;
     width: 100%;
     background-color: white;
@@ -189,7 +187,7 @@ a:hover{
    margin-bottom: 15px;
 }
 
-.lightpink-col{
+.second-section-col{
     padding: 0px 60px 0px 60px;
     width: 25%;
 }
@@ -200,7 +198,6 @@ h3{
 
 .p-section-two{
     font-size: 15px;
-    
 }
 
 /* Terza section */
@@ -213,12 +210,12 @@ h3{
     align-items: center;
 }
 
-.lightblue-col-two{
+.third-section-col{
     width: 25%;
     padding: 0px 40px 0px 40px;
 }
 
-.lightpink-col-two{
+.third-section-col-two{
     width: 35%;
 }
 
@@ -227,9 +224,10 @@ h3{
     text-align: center;
     margin: 20px 0px 50px 0px;
 }
+
 /* Quarta section */
 
-.gray-container-two{
+.fuor-section-container{
    
     background-color: rgb(239, 233, 233);
     display: flex;
@@ -240,7 +238,7 @@ h3{
     padding-bottom: 50px;
 }
 
-.green-col{
+.four-section-col{
     display: flex;
     width: 60%;
     justify-content: center;
@@ -253,7 +251,7 @@ h3{
 
 /* Quinta section */
 
-.black-container{
+.footer-container{
     display: flex;
     width: 100%;
     background-color: rgb(35, 39, 42);
@@ -263,7 +261,7 @@ h3{
     padding-bottom: 50px;
 }
 
-.darkpink-col{
+.first-footer-col{
     width: 18%;
     padding-right: 50px;
 }
@@ -275,7 +273,7 @@ h3{
     color: rgb(131, 40, 216, 0.8);
 }
 
-.aqua-col{
+.footer-col{
     width: 10.5%;
 }
 
@@ -292,10 +290,24 @@ h3{
 li{
     padding-bottom: 8px;
 }
+
 .logo-ita{
     width: 8%;
     color: white;
 }
+
+.social{
+    display: flex;
+    color: white;
+    width: 15%;
+}
+
+.social-logo{
+    padding: 20px 10px 0px 10px;
+    
+}
+
+/* Footer */
 
 .unordered-list-footer{
     list-style-type: none;
@@ -303,9 +315,8 @@ li{
     color: white;
     height: 100%;
 }
-/* Footer */
 
-.black-container-two{
+.footer-container-two{
     display: flex;
     width: 100%;
     background-color: rgb(35, 39, 42);
@@ -314,7 +325,7 @@ li{
    
 }
 
-.lightgreen-container{
+.bottom-container{
     display: flex;
     width: 60%;
     justify-content: space-between;
