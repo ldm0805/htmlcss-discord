@@ -237,6 +237,7 @@ h3{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 50px;
 }
 
 .green-col{
@@ -254,31 +255,28 @@ h3{
 
 .black-container{
     display: flex;
-    height: 400px;
     width: 100%;
     background-color: rgb(35, 39, 42);
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 .darkpink-col{
     width: 18%;
-    height: 350px;
     padding-right: 50px;
-    
 }
 
 .h3-footer{
     padding-top: 5px;
     margin-bottom: 10px;
     font-weight: bold;
-    color: blueviolet;
+    color: rgb(131, 40, 216, 0.8);
 }
 
 .aqua-col{
     width: 10.5%;
-    height: 350px;
 }
 
 .background-stars{
@@ -287,7 +285,7 @@ h3{
 }
 
 .download-mac-second{
-    background-color: blueviolet;
+    background-color: rgb(131, 40, 216, 0.5);
     color: white;
 }
 
@@ -313,14 +311,23 @@ li{
     background-color: rgb(35, 39, 42);
     justify-content: center;
     align-items: flex-end;
+   
 }
+
 .lightgreen-container{
     display: flex;
     width: 60%;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .footer-logo-col, .footer-bottone-col{
     padding: 0px 10px 0px 10px;
+}
+
+.border-top{
+    background-color: rgb(35, 39, 42);
+    padding: 0px 70px 0px 70px;
+    border-top: 2px solid rgb(131, 40, 216, 0.5);
 }
