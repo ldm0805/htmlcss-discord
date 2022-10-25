@@ -1,0 +1,355 @@
+/* Stile di default */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Whitney', sans-serif;
+    font-family: 'Whitney Semibold', sans-serif;
+    font-family: 'Whitney Book', sans-serif;
+    font-family: 'Whitney Light', sans-serif;
+}
+
+.margin-top-15{
+    margin-top: 15px;
+}
+
+.margin-top-30{
+    margin-top: 30px;
+}
+ 
+ .margin-left-100{
+    margin-left: 100px;
+ }
+
+ .margin-right-100{
+    margin-right: 100px;
+ }
+
+ .margin-20{
+    margin: 20px;
+ }
+
+ .margin-top-bottom-50{
+    margin: 50px 0px;
+ }
+
+ .margin-top-bottom-100{
+    margin: 100px 0px;
+ }
+ 
+ .padding-vertical-200{
+     padding: 20px 0px 200px 0px;
+    }
+    
+    /* Stile header */
+    
+.header-container{   
+        display: flex;
+        width: 100%;
+        height: 60px;
+        justify-content: center;
+        align-items: center;
+    }
+
+.img-container{
+        width: 100%;
+        background-image: url(../img/jumbo.png);
+        background-size: cover;
+    }
+ 
+.row-header{
+    display: flex;   
+    height: 40px;
+    justify-content: space-between;   
+}
+
+.col-logo, .col-login, .col-link {
+    height: 100%;
+}
+
+.col-logo {
+    padding-top: 5px;
+}
+
+.col-link{
+    text-align: center;
+    width: 680px;
+}
+
+.col-login{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Link contenuti nell'header e disposti in una lista non ordinata */
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover{
+    color:red;
+}
+
+.link-header{
+    color: white;
+    font-size: 20px;
+}
+
+.link-header-login{
+    color: rgb(0, 0, 0);
+    
+}
+
+.accedi{
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 10px 18px 10px 18px;
+    color: black;
+    background-color: white;
+}
+
+/* Lista non ordinata*/
+
+.unordered-list-header{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    padding-top: 10px;
+}
+
+
+/* Inizio Main ed Header section  */
+
+.row-blue{
+    margin-bottom: 2px;
+}
+
+.row-central{
+    display: flex;
+    justify-content: center;
+    padding: 0px 50px 0px 50px;
+}
+
+.header-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    color: white;
+}
+
+.h2-title{
+    font-size: 35px;
+    text-align: center;
+}
+
+.header-p{
+  text-align: center;
+  font-size: 20px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+
+.button-common{
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+}
+
+.download-mac-first{
+    color: black;
+    background-color: white;
+}
+
+.open-discord-browser {
+    color: white;
+    background-color: rgb(65, 65, 65);
+}
+
+
+/* Seconda section */
+
+.section-container{
+    display: flex;
+    width: 100%;
+    background-color: white;
+    justify-content: center;
+}
+
+.img-item{
+   width: 90%;
+   margin-bottom: 15px;
+}
+
+.second-section-col{
+    padding: 0px 60px 0px 60px;
+    width: 25%;
+}
+
+h3{
+    font-size: 35px;
+}
+
+.p-section-two{
+    font-size: 20px;
+}
+
+/* Terza section */
+
+.gray-container{
+    background-color: rgb(237, 237, 237);
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-section-col{
+    width: 25%;
+    padding: 0px 40px 0px 40px;
+}
+
+.third-section-col-two{
+    width: 35%;
+}
+
+.p-ultimate{
+    width: 50%;
+    text-align: center;
+    margin: 20px 0px 50px 0px;
+}
+
+.waves{
+    height: 150px;
+    background-image: url(../img/wave.svg);
+    background-size: contain;
+    filter: invert(98%) sepia(1%) saturate(36%) hue-rotate(105deg) brightness(113%) contrast(86%);
+}
+
+.waves-down{
+    transform: rotate(180deg);
+}
+
+/* Quarta section */
+
+.fuor-section-container{
+   
+    background-color: rgb(237, 237, 237);
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.four-section-col{
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-item-big{
+    width: 80%;
+}
+
+/* Footer */
+
+.footer-container{
+    display: flex;
+    width: 100%;
+    background-color: rgb(35, 39, 42);
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.first-footer-col{
+    width: 18%;
+    padding-right: 50px;
+}
+
+.h3-footer{
+    padding-top: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: rgb(131, 40, 216, 0.8);
+}
+
+.footer-col{
+    width: 10.5%;
+}
+
+.background-stars{
+    background-image: url(../img/stars.svg);
+    padding: 25px;
+}
+
+.download-mac-second{
+    background-color: rgb(131, 40, 216, 0.5);
+    color: white;
+}
+
+li{
+    padding-bottom: 8px;
+}
+
+.logo-ita{
+    width: 8%;
+    color: white;
+}
+
+.social{
+    display: flex;
+    color: white;
+    width: 12%;
+}
+
+.social-logo{
+    padding: 20px 10px 0px 0px;
+    filter: invert(98%) sepia(1%) saturate(36%) hue-rotate(105deg) brightness(113%) contrast(86%);
+}
+
+
+.unordered-list-footer{
+    list-style-type: none;
+    padding-left: 5px;
+    color: white;
+    height: 100%;
+}
+
+.footer-container-two{
+    display: flex;
+    width: 100%;
+    background-color: rgb(35, 39, 42);
+    justify-content: center;
+    align-items: flex-end;
+   
+}
+
+.bottom-container{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.footer-logo-col, .footer-bottone-col{
+    padding: 0px 10px 0px 10px;
+}
+
+.border-top{
+    background-color: rgb(35, 39, 42);
+    padding: 0px 70px 0px 70px;
+    border-top: 2px solid rgb(131, 40, 216, 0.5);
+}
